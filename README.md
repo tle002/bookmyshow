@@ -12,8 +12,8 @@ BookMyShow is a Spring Boot application that allows users to browse and book mov
 - Clear a seat booking if payment is not made
 
 ## Project Structure
-. ├── .gitattributes ├── .gitignore ├── .vscode/ │ └── settings.json ├── HELP.md ├── mvnw/ ├── mvnw copy ├── mvnw.cmd ├── pom.xml ├── README.md ├── src/ │ ├── main/ │ │ ├── java/ │ │ │ └── com/ │ │ │ └── bookmyshow/ │ │ │ ├── BookmyshowApplication.java │ │ │ ├── controller/ │ │ │ ├── model/ │ │ │ ├── repository/ │ │ │ └── service/ │ │ └── resources/ │ │ ├── application.properties │ │ └── data.sql │ └── test/ └── target/
 
+. ├── .gitattributes ├── .gitignore ├── .vscode/ │ └── settings.json ├── HELP.md ├── mvnw ├── mvnw.cmd ├── pom.xml ├── README.md ├── src/ │ ├── main/ │ │ ├── java/ │ │ │ └── com/ │ │ │ └── bookmyshow/ │ │ │ ├── BookmyshowApplication.java │ │ │ ├── controller/ │ │ │ ├── model/ │ │ │ ├── repository/ │ │ │ └── service/ │ │ └── resources/ │ │ ├── application.properties │ │ └── data.sql │ └── test/ └── target/
 
 ## Getting Started
 
