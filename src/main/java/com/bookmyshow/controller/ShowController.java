@@ -17,7 +17,7 @@ public class ShowController {
 
     @GetMapping("/movie/{movieId}")
     public ResponseEntity<List<Show>> listShows(@PathVariable Long movieId) {
-        List<Show> shows = showService.getShowsByMovieId(movieId);
+        List<Show> shows = showService.listShowsByMovieId(movieId);
         return ResponseEntity.ok(shows);
     }
 }

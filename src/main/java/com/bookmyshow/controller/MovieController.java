@@ -17,7 +17,7 @@ public class MovieController {
 
     @GetMapping("/city/{cityId}")
     public ResponseEntity<List<Movie>> listMovies(@PathVariable Long cityId) {
-        List<Movie> movies = movieService.getMoviesByCity(cityId);
+        List<Movie> movies = movieService.listMoviesByCity(cityId);
         return ResponseEntity.ok(movies);
     }
 }

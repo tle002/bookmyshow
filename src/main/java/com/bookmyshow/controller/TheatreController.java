@@ -19,6 +19,6 @@ public class TheatreController {
 
     @GetMapping("/city/{cityId}")
     public List<Theatre> listTheatres(@PathVariable Long cityId) {
-        return theatreService.getTheatresByCity(cityId);
+        return theatreService.listTheatresByCityId(cityId);
     }
 }

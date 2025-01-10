@@ -18,6 +18,6 @@ public class CityController {
 
     @GetMapping
     public List<City> listCities() {
-        return cityService.getAllCities();
+        return cityService.listCities();
     }
 }
