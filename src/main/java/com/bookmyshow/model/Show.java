@@ -1,3 +1,5 @@
+package com.bookmyshow.model;
+
 public class Show {
     private Long showId;
     private Long movieId;

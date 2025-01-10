@@ -1,3 +1,5 @@
+package com.bookmyshow.model;
+
 public class City {
     private Long cityId;
     private String cityName;
